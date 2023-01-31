@@ -1,0 +1,15 @@
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\bin\Debug\net7.0\ConsoleChessGame.exe
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\bin\Debug\net7.0\ConsoleChessGame.deps.json
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\bin\Debug\net7.0\ConsoleChessGame.runtimeconfig.json
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\bin\Debug\net7.0\ConsoleChessGame.dll
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\bin\Debug\net7.0\ConsoleChessGame.pdb
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ConsoleChessGame.csproj.AssemblyReference.cache
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ConsoleChessGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ConsoleChessGame.AssemblyInfoInputs.cache
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ConsoleChessGame.AssemblyInfo.cs
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ConsoleChessGame.csproj.CoreCompileInputs.cache
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ConsoleChessGame.dll
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\refint\ConsoleChessGame.dll
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ConsoleChessGame.pdb
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ConsoleChessGame.genruntimeconfig.cache
+C:\Users\rdeso\OneDrive\Documentos\Cshrp\ConsoleChessGame\ConsoleChessGame\obj\Debug\net7.0\ref\ConsoleChessGame.dll
