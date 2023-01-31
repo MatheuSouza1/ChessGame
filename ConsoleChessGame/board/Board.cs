@@ -27,10 +27,42 @@ namespace board
             return pieces[line, column];
         }
 
+        public Piece GetPiece(Position position)
+        {
+            return pieces[position.Line, position.Column];
+        }
+
         public void SetPiece(Piece piece, Position position)
         {
+            if (HavePiece(position))
+            {
+                throw new BoardExceptions("There's already a piece in this position");
+            }
             pieces[position.Line, position.Column] = piece;
             piece.Position = position;
+        }
+
+        public bool HavePiece(Position pos)
+        {
+            IsPositionValid(pos);
+            return GetPiece(pos) != null;
+        }
+
+        public bool IsPositionValid(Position position)
+        {
+            if (position.Line < 0 || position.Line >= Lines || position.Column <0 || position.Column >= Columns)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public void ValidatePosition(Position position)
+        {
+            if (IsPositionValid(position) != true) 
+            {
+                throw new BoardExceptions("Invalid Position");
+            }
         }
     }
 }
