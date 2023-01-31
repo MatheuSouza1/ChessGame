@@ -11,20 +11,20 @@ namespace ConsoleChessGame
     {
         public static void showBoard(Board board)
         {
-            for (int i = 0; i < board.Lines; i++)
+            for (int i = 0; i < board.Lines; i++) //for to run through the lines
             {
-                for(int n = 0; n < board.Columns; n++)
+                for(int n = 0; n < board.Columns; n++) //for to run through the columns
                 {
-                    if (board.GetPiece(i, n) == null)
+                    if (board.GetPiece(i, n) == null) 
                     {
-                        Console.Write("- ");
+                        Console.Write("- "); //print a "-" to represent a empty space
                     }
                     else
                     {
-                        Console.Write(board.GetPiece(i, n) + " ");
+                        Console.Write(board.GetPiece(i, n) + " "); //if the space is not empty print the piece
                     }
                 }
-                Console.WriteLine();
+                Console.WriteLine(); //next line
             }
         }
     }

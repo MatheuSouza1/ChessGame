@@ -14,9 +14,8 @@ namespace board
         public Board Board { get; set; }
 
         public Piece() { }
-        public Piece(Position position, Color color, Board board)
+        public Piece(Color color, Board board)
         {
-            Position= position;
             Color = color;
             Board = board;
             MvQuantity = 0;
