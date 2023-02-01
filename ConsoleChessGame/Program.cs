@@ -7,6 +7,8 @@ namespace ConsoleChessGame
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+
             Board board = new Board(8,8);
 
             board.SetPiece(new King(Color.Black, board), new Position(0,0));

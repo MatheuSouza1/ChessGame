@@ -13,6 +13,7 @@ namespace ConsoleChessGame
         {
             for (int i = 0; i < board.Lines; i++) //for to run through the lines
             {
+                Console.Write($"{8-i} ");
                 for(int n = 0; n < board.Columns; n++) //for to run through the columns
                 {
                     if (board.GetPiece(i, n) == null) 
@@ -21,11 +22,21 @@ namespace ConsoleChessGame
                     }
                     else
                     {
-                        Console.Write(board.GetPiece(i, n) + " "); //if the space is not empty print the piece
+                        if (board.GetPiece(i,n).Color == Color.White)
+                        {
+                            Console.Write(board.GetPiece(i, n) + " "); //if the space is not empty print the piece
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            Console.Write(board.GetPiece(i,n) + " ");
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
                     }
                 }
                 Console.WriteLine(); //next line
             }
+            Console.WriteLine("  a b c d e f g h");
         }
     }
 }
