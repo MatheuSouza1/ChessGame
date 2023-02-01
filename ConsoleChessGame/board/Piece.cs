@@ -20,5 +20,10 @@ namespace board
             Board = board;
             MvQuantity = 0;
         }
+
+        public void RaiseMvQuantity()
+        {
+            MvQuantity++;
+        }
     }
 }

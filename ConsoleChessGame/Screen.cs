@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using board;
+using chess;
 
 namespace ConsoleChessGame
 {
@@ -37,6 +38,14 @@ namespace ConsoleChessGame
                 Console.WriteLine(); //next line
             }
             Console.WriteLine("  a b c d e f g h");
+        }
+
+        public static ChessPosition ReadChessPosition()
+        {
+            string position = Console.ReadLine();
+            char column = position[0];
+            int line = int.Parse(position[1] + "");
+            return new ChessPosition(line, column);
         }
     }
 }

@@ -7,18 +7,20 @@ namespace ConsoleChessGame
     {
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            ChessMatch match= new ChessMatch();
 
-            Board board = new Board(8,8);
+            while (!match.IsMatchOver)
+            {
+                Console.Clear();
+                Screen.showBoard(match.board);
 
-            board.SetPiece(new King(Color.Black, board), new Position(0,0));
-            board.SetPiece(new King(Color.White, board), new Position(1,5));
-            board.SetPiece(new Queen(Color.White, board), new Position(2,0));
+                Console.Write("Origin");
+                Position origin = Screen.ReadChessPosition().ToPosition();
+                Console.Write("Destiny");
+                Position destiny = Screen.ReadChessPosition().ToPosition();
 
-            Screen.showBoard(board);
-
-            ChessPosition position = new ChessPosition(5,'a');
-            Console.WriteLine(position.ToPosition());
+                match.MovePiece(origin, destiny);
+            }
         }
     }
 }
